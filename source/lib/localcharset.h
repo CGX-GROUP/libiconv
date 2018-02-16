@@ -20,7 +20,7 @@
 #ifndef _LOCALCHARSET_H
 #define _LOCALCHARSET_H
 
-#ifndef EXPORT_LOCALE_CHARSET
+#ifdef NOT_EXPORT_LOCALE_CHARSET
 
 #if 0 && BUILDING_LIBCHARSET
 #define LIBCHARSET_DLL_EXPORTED __attribute__((__visibility__("default")))
